@@ -3,7 +3,7 @@
   "host": "localhost",
   "port": 3306,
   "username": "root",
-  "password": "11235@KhoaA",
+  "password": "11235",
   "database": "lixisgroup3",
   "entities": [
     "dist/**/*.entity{.ts,.js}"
@@ -11,8 +11,7 @@
   "synchronize": true,
   "migrationsTableName": "lixisgroup_migration_table",
   "migrations": [
-    "src/migration/*.{ts,js}"
-  ],
+    "src/migration/*.{ts,js}" ],
   "cli": {
     "migrationsDir": "src/migration"
   }
